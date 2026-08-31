@@ -228,7 +228,7 @@ pytest backend/tests/ -v
 
 ---
 
-## Team & License
+## Team 
 
 Built for the Intain Campus FinTech Challenge 2026, AI Track.
 *(Duvvuru Vandita)*
