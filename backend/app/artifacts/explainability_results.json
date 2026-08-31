@@ -1,0 +1,896 @@
+{
+  "global_importance": [
+    {
+      "feature": "status_num",
+      "mean_abs_shap": 0.4735
+    },
+    {
+      "feature": "loan_age_months",
+      "mean_abs_shap": 0.0882
+    },
+    {
+      "feature": "credit_score_num",
+      "mean_abs_shap": 0.0782
+    },
+    {
+      "feature": "is_delinquent",
+      "mean_abs_shap": 0.078
+    },
+    {
+      "feature": "rate_x_dti",
+      "mean_abs_shap": 0.034
+    },
+    {
+      "feature": "original_balance",
+      "mean_abs_shap": 0.023
+    },
+    {
+      "feature": "remaining_term_months",
+      "mean_abs_shap": 0.022
+    },
+    {
+      "feature": "interest_rate",
+      "mean_abs_shap": 0.0211
+    },
+    {
+      "feature": "dti_num",
+      "mean_abs_shap": 0.0172
+    },
+    {
+      "feature": "days_past_due",
+      "mean_abs_shap": 0.0163
+    },
+    {
+      "feature": "ltv_num",
+      "mean_abs_shap": 0.0145
+    },
+    {
+      "feature": "balance_ratio",
+      "mean_abs_shap": 0.0134
+    },
+    {
+      "feature": "rate_x_ltv",
+      "mean_abs_shap": 0.0109
+    },
+    {
+      "feature": "current_balance",
+      "mean_abs_shap": 0.0096
+    },
+    {
+      "feature": "balance_rolling_mean_3",
+      "mean_abs_shap": 0.0084
+    },
+    {
+      "feature": "balance_lag3",
+      "mean_abs_shap": 0.0084
+    },
+    {
+      "feature": "credit_x_ltv",
+      "mean_abs_shap": 0.0082
+    },
+    {
+      "feature": "balance_rolling_std_3",
+      "mean_abs_shap": 0.0068
+    },
+    {
+      "feature": "months_since_delinq",
+      "mean_abs_shap": 0.0063
+    },
+    {
+      "feature": "balance_lag1",
+      "mean_abs_shap": 0.006
+    }
+  ],
+  "local_explanations": [
+    {
+      "loan_id": "LN009706",
+      "prediction": 0.872,
+      "actual": 1,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": 1.8507
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": 0.3064
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.0831
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.0666
+        },
+        {
+          "feature": "days_past_due",
+          "shap_value": -0.0647
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN009274",
+      "prediction": 0.3269,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2441
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": -0.0543
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0378
+        },
+        {
+          "feature": "interest_rate",
+          "shap_value": -0.0345
+        },
+        {
+          "feature": "original_balance",
+          "shap_value": 0.0292
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN014758",
+      "prediction": 0.3374,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2452
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": -0.0472
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0396
+        },
+        {
+          "feature": "original_balance",
+          "shap_value": 0.0332
+        },
+        {
+          "feature": "balance_ratio",
+          "shap_value": -0.0303
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN009024",
+      "prediction": 0.3402,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2413
+        },
+        {
+          "feature": "rate_x_dti",
+          "shap_value": -0.0858
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.039
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.035
+        },
+        {
+          "feature": "original_balance",
+          "shap_value": -0.0305
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN003194",
+      "prediction": 0.3413,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2358
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0385
+        },
+        {
+          "feature": "rate_x_dti",
+          "shap_value": -0.0241
+        },
+        {
+          "feature": "remaining_term_months",
+          "shap_value": 0.0224
+        },
+        {
+          "feature": "original_balance",
+          "shap_value": 0.0215
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN003516",
+      "prediction": 0.5541,
+      "actual": 1,
+      "top_shap_drivers": [
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.2551
+        },
+        {
+          "feature": "status_num",
+          "shap_value": -0.2138
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.1797
+        },
+        {
+          "feature": "rate_x_dti",
+          "shap_value": 0.1476
+        },
+        {
+          "feature": "interest_rate",
+          "shap_value": 0.0766
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN002260",
+      "prediction": 0.3955,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2293
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.1705
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": -0.0592
+        },
+        {
+          "feature": "remaining_term_months",
+          "shap_value": 0.05
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0406
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN011319",
+      "prediction": 0.4216,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.2394
+        },
+        {
+          "feature": "status_num",
+          "shap_value": -0.2307
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": -0.1575
+        },
+        {
+          "feature": "ltv_num",
+          "shap_value": 0.0499
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0378
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN001416",
+      "prediction": 0.4232,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2282
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.165
+        },
+        {
+          "feature": "ltv_num",
+          "shap_value": 0.0772
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0364
+        },
+        {
+          "feature": "credit_x_ltv",
+          "shap_value": 0.0245
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN004823",
+      "prediction": 0.3766,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2346
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.0787
+        },
+        {
+          "feature": "original_balance",
+          "shap_value": -0.0433
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0386
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.0345
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN012339",
+      "prediction": 0.4246,
+      "actual": 1,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2437
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.1048
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.083
+        },
+        {
+          "feature": "dpd_rolling_max_3",
+          "shap_value": -0.045
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0421
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN002002",
+      "prediction": 0.3282,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2412
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": -0.1745
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.0653
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0408
+        },
+        {
+          "feature": "ltv_num",
+          "shap_value": 0.0332
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN013147",
+      "prediction": 0.3466,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2405
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0391
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.0348
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": -0.0294
+        },
+        {
+          "feature": "dti_num",
+          "shap_value": -0.0224
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN005483",
+      "prediction": 0.9203,
+      "actual": 1,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": 2.1441
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": 0.3687
+        },
+        {
+          "feature": "days_past_due",
+          "shap_value": 0.1651
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.0658
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": -0.0314
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN014281",
+      "prediction": 0.9203,
+      "actual": 1,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": 2.0849
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": 0.3607
+        },
+        {
+          "feature": "days_past_due",
+          "shap_value": 0.1549
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.0896
+        },
+        {
+          "feature": "remaining_term_months",
+          "shap_value": 0.0232
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN007949",
+      "prediction": 0.4052,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2278
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.1492
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.0634
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0377
+        },
+        {
+          "feature": "balance_ratio",
+          "shap_value": -0.031
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN011055",
+      "prediction": 0.431,
+      "actual": 1,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2281
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.1167
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.0762
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0381
+        },
+        {
+          "feature": "original_balance",
+          "shap_value": -0.0258
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN003150",
+      "prediction": 0.3942,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2311
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.1966
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.0533
+        },
+        {
+          "feature": "balance_lag3",
+          "shap_value": 0.0467
+        },
+        {
+          "feature": "original_balance",
+          "shap_value": -0.0425
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN008197",
+      "prediction": 0.3931,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2328
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.0948
+        },
+        {
+          "feature": "rate_x_dti",
+          "shap_value": 0.0483
+        },
+        {
+          "feature": "ltv_num",
+          "shap_value": 0.0392
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0378
+        }
+      ],
+      "base_value": -0.3156
+    },
+    {
+      "loan_id": "LN003255",
+      "prediction": 0.3892,
+      "actual": 0,
+      "top_shap_drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2317
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.1063
+        },
+        {
+          "feature": "rate_x_dti",
+          "shap_value": 0.0622
+        },
+        {
+          "feature": "remaining_term_months",
+          "shap_value": 0.0515
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": -0.0381
+        }
+      ],
+      "base_value": -0.3156
+    }
+  ],
+  "calibration": {
+    "fraction_positive": [
+      0.0824,
+      0.1411,
+      0.2364,
+      0.4167,
+      0.0,
+      0.7685,
+      0.8521,
+      0.9305
+    ],
+    "mean_predicted": [
+      0.0911,
+      0.1456,
+      0.2168,
+      0.3889,
+      0.5,
+      0.7762,
+      0.8637,
+      0.9258
+    ]
+  },
+  "fp_cases": [
+    {
+      "loan_id": "LN010162",
+      "prediction": 0.8773,
+      "type": "false_positive",
+      "drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": 1.9474
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": 0.3252
+        },
+        {
+          "feature": "days_past_due",
+          "shap_value": -0.0632
+        }
+      ],
+      "explanation": "Model predicted delinquency (p=0.877) but loan stayed current. Key drivers: status_num, is_delinquent, days_past_due."
+    },
+    {
+      "loan_id": "LN008061",
+      "prediction": 0.56,
+      "type": "false_positive",
+      "drivers": [
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.3167
+        },
+        {
+          "feature": "status_num",
+          "shap_value": -0.2086
+        },
+        {
+          "feature": "rate_x_dti",
+          "shap_value": 0.117
+        }
+      ],
+      "explanation": "Model predicted delinquency (p=0.560) but loan stayed current. Key drivers: loan_age_months, status_num, rate_x_dti."
+    },
+    {
+      "loan_id": "LN005713",
+      "prediction": 0.8852,
+      "type": "false_positive",
+      "drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": 2.0284
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": 0.3435
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": -0.0816
+        }
+      ],
+      "explanation": "Model predicted delinquency (p=0.885) but loan stayed current. Key drivers: status_num, is_delinquent, credit_score_num."
+    },
+    {
+      "loan_id": "LN010858",
+      "prediction": 0.874,
+      "type": "false_positive",
+      "drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": 1.922
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": 0.3104
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.0695
+        }
+      ],
+      "explanation": "Model predicted delinquency (p=0.874) but loan stayed current. Key drivers: status_num, is_delinquent, loan_age_months."
+    },
+    {
+      "loan_id": "LN006187",
+      "prediction": 0.8733,
+      "type": "false_positive",
+      "drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": 1.8545
+        },
+        {
+          "feature": "is_delinquent",
+          "shap_value": 0.3259
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.0785
+        }
+      ],
+      "explanation": "Model predicted delinquency (p=0.873) but loan stayed current. Key drivers: status_num, is_delinquent, loan_age_months."
+    }
+  ],
+  "fn_cases": [
+    {
+      "loan_id": "LN012339",
+      "prediction": 0.4246,
+      "type": "false_negative",
+      "drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2437
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.1048
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.083
+        }
+      ],
+      "explanation": "Model missed delinquency (p=0.425). Potential blind spots: status_num, credit_score_num, loan_age_months."
+    },
+    {
+      "loan_id": "LN011055",
+      "prediction": 0.431,
+      "type": "false_negative",
+      "drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2281
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.1167
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.0762
+        }
+      ],
+      "explanation": "Model missed delinquency (p=0.431). Potential blind spots: status_num, credit_score_num, loan_age_months."
+    },
+    {
+      "loan_id": "LN009718",
+      "prediction": 0.411,
+      "type": "false_negative",
+      "drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2215
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.1779
+        },
+        {
+          "feature": "interest_rate",
+          "shap_value": -0.1346
+        }
+      ],
+      "explanation": "Model missed delinquency (p=0.411). Potential blind spots: status_num, loan_age_months, interest_rate."
+    },
+    {
+      "loan_id": "LN011379",
+      "prediction": 0.3635,
+      "type": "false_negative",
+      "drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2339
+        },
+        {
+          "feature": "rate_x_dti",
+          "shap_value": -0.1004
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.0977
+        }
+      ],
+      "explanation": "Model missed delinquency (p=0.363). Potential blind spots: status_num, rate_x_dti, credit_score_num."
+    },
+    {
+      "loan_id": "LN009096",
+      "prediction": 0.4231,
+      "type": "false_negative",
+      "drivers": [
+        {
+          "feature": "status_num",
+          "shap_value": -0.2248
+        },
+        {
+          "feature": "loan_age_months",
+          "shap_value": 0.1256
+        },
+        {
+          "feature": "credit_score_num",
+          "shap_value": 0.0858
+        }
+      ],
+      "explanation": "Model missed delinquency (p=0.423). Potential blind spots: status_num, loan_age_months, credit_score_num."
+    }
+  ],
+  "confidence_bands": {
+    "high_confidence": {
+      "range": [
+        0.0,
+        0.2
+      ],
+      "count": 266
+    },
+    "medium_confidence": {
+      "range": [
+        0.2,
+        0.4
+      ],
+      "count": 1204
+    },
+    "low_confidence": {
+      "range": [
+        0.4,
+        0.6
+      ],
+      "count": 530
+    }
+  },
+  "shap_base_value": -0.3156
+}

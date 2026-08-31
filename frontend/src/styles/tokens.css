@@ -1,0 +1,41 @@
+:root {
+  /* Ink Tones (Background & Base) */
+  --ink-950: #10131A;
+  --ink-900: #141922;
+  --ink-800: #1B2130;
+  --ink-700: #252D3F;
+
+  /* Paper Tones (Surfaces & Typography) */
+  --paper-50: #FAF7F0;
+  --paper-100: #F4EFE4;
+  --paper-200: #E8E0CE;
+  --paper-300: #D6CCA8;
+
+  /* Brass & Copper Accents (Instruments & Precision) */
+  --brass-300: #E0B979;
+  --brass-400: #D3A459;
+  --brass-500: #C4903F;
+  --brass-600: #A6732B;
+
+  /* Precision Signal Indicators */
+  --signal-teal: #3E8E82;
+  --signal-rust: #B4482E;
+  --signal-amber: #D9A441;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ink-950);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ink-700);
+  border-radius: 3px;
+  border: 1px solid rgba(196, 144, 63, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brass-600);
+}

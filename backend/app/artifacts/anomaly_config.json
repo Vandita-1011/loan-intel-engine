@@ -1,0 +1,29 @@
+{
+  "features": [
+    "credit_num",
+    "ltv_num",
+    "dti_num",
+    "status_num",
+    "balance_ratio",
+    "days_past_due",
+    "interest_rate",
+    "loan_age_months",
+    "remaining_term_months",
+    "modification_flag"
+  ],
+  "exception_types": [
+    "missing_doc",
+    "balance_mismatch",
+    "status_conflict",
+    "stale_record",
+    "date_invalid",
+    "outlier_balance",
+    "none"
+  ],
+  "blend_weights": {
+    "isolation_forest": 0.6,
+    "autoencoder": 0.4
+  },
+  "use_autoencoder": true,
+  "autoencoder_input_dim": 10
+}

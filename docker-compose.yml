@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+      - ./backend/app/artifacts:/app/backend/app/artifacts
+      - ./mlruns:/app/mlruns
+    env_file:
+      - .env
+    environment:
+      - MLFLOW_TRACKING_URI=./mlruns
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
+
+  mlflow:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./mlruns:/app/mlruns
+    command: mlflow ui --host 0.0.0.0 --port 5001

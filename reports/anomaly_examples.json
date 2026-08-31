@@ -1,0 +1,333 @@
+[
+  {
+    "loan_id": "LN001502",
+    "month_index": 27,
+    "anomaly_score": 0.9783,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 2268208.37,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90",
+      "Balance ratio 17.8x is an outlier"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN004389",
+    "month_index": 26,
+    "anomaly_score": 0.8544,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 237454.29,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN007794",
+    "month_index": 23,
+    "anomaly_score": 0.853,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 105534.94,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN007794",
+    "month_index": 30,
+    "anomaly_score": 0.8401,
+    "exception_type": "missing_doc",
+    "current_status": "Default",
+    "current_balance": 102446.92,
+    "days_past_due": 90,
+    "drivers": [
+      "Document status is missing or incomplete"
+    ],
+    "recommended_action": "Request updated documentation"
+  },
+  {
+    "loan_id": "LN005898",
+    "month_index": 27,
+    "anomaly_score": 0.8309,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 6011745.63,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90",
+      "Balance ratio 18.1x is an outlier"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN012614",
+    "month_index": 30,
+    "anomaly_score": 0.83,
+    "exception_type": "outlier_balance",
+    "current_status": "90DPD+",
+    "current_balance": 919090.78,
+    "days_past_due": 90,
+    "drivers": [
+      "Balance ratio 9.9x is an outlier"
+    ],
+    "recommended_action": "Follow up with servicer"
+  },
+  {
+    "loan_id": "LN009420",
+    "month_index": 30,
+    "anomaly_score": 0.8204,
+    "exception_type": "outlier_balance",
+    "current_status": "30DPD",
+    "current_balance": 3262262.44,
+    "days_past_due": 30,
+    "drivers": [
+      "Balance ratio 9.3x is an outlier"
+    ],
+    "recommended_action": "Follow up with servicer"
+  },
+  {
+    "loan_id": "LN007580",
+    "month_index": 29,
+    "anomaly_score": 0.791,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 117634.84,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN014863",
+    "month_index": 30,
+    "anomaly_score": 0.7901,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 209564.89,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN013603",
+    "month_index": 29,
+    "anomaly_score": 0.7831,
+    "exception_type": "outlier_balance",
+    "current_status": "Current",
+    "current_balance": 5614217.52,
+    "days_past_due": 0,
+    "drivers": [
+      "Balance ratio 18.3x is an outlier"
+    ],
+    "recommended_action": "Follow up with servicer"
+  },
+  {
+    "loan_id": "LN010942",
+    "month_index": 23,
+    "anomaly_score": 0.7802,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 341710.19,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN007502",
+    "month_index": 27,
+    "anomaly_score": 0.7799,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 199262.66,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN011723",
+    "month_index": 29,
+    "anomaly_score": 0.7766,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 1378753.99,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90",
+      "Balance ratio 10.0x is an outlier"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN012614",
+    "month_index": 26,
+    "anomaly_score": 0.7711,
+    "exception_type": "missing_doc",
+    "current_status": "90DPD+",
+    "current_balance": 89463.9,
+    "days_past_due": 90,
+    "drivers": [
+      "Document status is missing or incomplete"
+    ],
+    "recommended_action": "Request updated documentation"
+  },
+  {
+    "loan_id": "LN003757",
+    "month_index": 30,
+    "anomaly_score": 0.767,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 343021.95,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN012614",
+    "month_index": 25,
+    "anomaly_score": 0.7661,
+    "exception_type": "stale_record",
+    "current_status": "90DPD+",
+    "current_balance": 89533.11,
+    "days_past_due": 90,
+    "drivers": [
+      "Last updated date is before origination",
+      "Record not updated in >90 days"
+    ],
+    "recommended_action": "Follow up with servicer"
+  },
+  {
+    "loan_id": "LN002705",
+    "month_index": 30,
+    "anomaly_score": 0.762,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 176617.59,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN006902",
+    "month_index": 20,
+    "anomaly_score": 0.7586,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 400557.97,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN004641",
+    "month_index": 23,
+    "anomaly_score": 0.7547,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 372074.77,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN003238",
+    "month_index": 29,
+    "anomaly_score": 0.7477,
+    "exception_type": "missing_doc",
+    "current_status": "90DPD+",
+    "current_balance": 268702.75,
+    "days_past_due": 90,
+    "drivers": [
+      "Document status is missing or incomplete"
+    ],
+    "recommended_action": "Request updated documentation"
+  },
+  {
+    "loan_id": "LN007125",
+    "month_index": 27,
+    "anomaly_score": 0.7463,
+    "exception_type": "missing_doc",
+    "current_status": "90DPD+",
+    "current_balance": 318991.52,
+    "days_past_due": 90,
+    "drivers": [
+      "Document status is missing or incomplete"
+    ],
+    "recommended_action": "Request updated documentation"
+  },
+  {
+    "loan_id": "LN006636",
+    "month_index": 28,
+    "anomaly_score": 0.7461,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 1989526.93,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90",
+      "Balance ratio 9.4x is an outlier"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN010138",
+    "month_index": 21,
+    "anomaly_score": 0.7455,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 1625041.45,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90",
+      "Balance ratio 11.1x is an outlier"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN012145",
+    "month_index": 30,
+    "anomaly_score": 0.7454,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 139258.72,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  },
+  {
+    "loan_id": "LN000434",
+    "month_index": 28,
+    "anomaly_score": 0.7447,
+    "exception_type": "status_conflict",
+    "current_status": "Current",
+    "current_balance": 135138.75,
+    "days_past_due": 90,
+    "drivers": [
+      "Status is Current but DPD=90"
+    ],
+    "recommended_action": "Review and reconcile"
+  }
+]
